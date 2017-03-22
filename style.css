@@ -13,16 +13,16 @@ h1{
 	color: pink;
 }
 @keyframes swageffect{
-    0%  {color:red; font-size:40px; transform: rotate(0deg);}
+    0%  {color:red; font-size:40px;}
    25%  {color:yellow;}
-   50%  {color:blue; font-size:60px; transform: rotate(180deg);}
+   50%  {color:blue; font-size:60px;}
    75%  {color:green;}
-   100% {color:red; font-size:40px; transform: rotate(360deg);}
+   100% {color:red; font-size:40px;}
 }
 @-webkit-keyframes swageffect{
-    0%  {color:red; font-size:40px; transform: rotate(0deg);}
+    0%  {color:red; font-size:40px;}
    25%  {color:yellow;}
-   50%  {color:blue; font-size:60px; transform: rotate(180deg);}
+   50%  {color:blue; font-size:60px;}
    75%  {color:green;}
-   100% {color:red; font-size:40px; transform: rotate(360deg);}
+   100% {color:red; font-size:40px;}
 }
