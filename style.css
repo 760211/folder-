@@ -1,8 +1,28 @@
 h1{
 	font-size: 60px;
 	color: blue;
+    -webkit-animation-name: swageffect; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s;
+    animation-name: swageffect;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
 }
 #sentence1{
 	font-size: 30px;
 	color: pink;
+}
+@keyframes swageffect{
+    0%  {color:red; font-size:40px; transform: rotate(0deg);}
+   25%  {color:yellow;}
+   50%  {color:blue; font-size:60px; transform: rotate(180deg);}
+   75%  {color:green;}
+   100% {color:red; font-size:40px; transform: rotate(360deg);}
+}
+@-webkit-keyframes swageffect{
+    0%  {color:red; font-size:40px; transform: rotate(0deg);}
+   25%  {color:yellow;}
+   50%  {color:blue; font-size:60px; transform: rotate(180deg);}
+   75%  {color:green;}
+   100% {color:red; font-size:40px; transform: rotate(360deg);}
 }
